@@ -1,0 +1,23 @@
+1. install vs code
+2. install GIT
+3. create / login github account (using modern college id)
+4. Create folder on desktop (copy downloaded file into that folder)
+5. open that folder in VS code.
+6. open terminal in VS code
+7. type git --version (check git is install or not)
+8. type following commands in vs code terminal:
+git init  (for initiale git)
+git config --global user.email "your github mail id"
+git config --global user.name "your github user name"
+git add.
+git status
+6. go on browser login in github and click on + icon (right top corner) and select new repository
+7. give seat no as repository name click on create repository.
+8. on this tab there will be "Quick setup — if you’ve done this kind of thing before" inside that there will be https://github.me wali link copy that link
+9. back to vs code terminal and type:
+git remote add origin "that copied link"
+git commit
+git status
+git push -u origin master
+10. go back to browser and refresh that page you will see folder there.
+DONE
